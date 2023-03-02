@@ -9,7 +9,7 @@ const fs = require('fs');
 // -------------------------------
 
 
-var enterPassword = 'ukdPass'; // Enter password
+var enterPassword = process.argv[2]; // Enter password
 
 
 var crypted = aes.encryptText("ukdPass"); // Encrypted password
